@@ -1,19 +1,17 @@
-﻿using Challenges.Interfaces;
+﻿using Challenges.Implementations;
 
 namespace Coding
 {
     public class Program
     {
-        private readonly IDataStructure _dataStructure;
-
-        public Program(IDataStructure dataStructure)
-        {
-            _dataStructure = dataStructure;
-        }
-
         public static void Main(string[] args)
         {
-            
+            DataStructure(new DataStructure());
+        }
+
+        private static void DataStructure(DataStructure ds)
+        {
+            ds.ArrayInReverse();
         }
     }
 }

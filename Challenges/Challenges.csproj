@@ -39,8 +39,6 @@
   <ItemGroup>
     <Compile Include="Implementations\Algorithm.cs" />
     <Compile Include="Implementations\DataStructure.cs" />
-    <Compile Include="Interfaces\IAlgorithm.cs" />
-    <Compile Include="Interfaces\IDataStructure.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

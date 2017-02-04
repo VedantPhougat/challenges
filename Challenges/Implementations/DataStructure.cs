@@ -1,9 +1,8 @@
 ﻿using System;
-using Challenges.Interfaces;
 
 namespace Challenges.Implementations
 {
-    public static class DataStructure : IDataStructure
+    public class DataStructure
     {
         public void ArrayInReverse()
         {
@@ -18,7 +17,7 @@ namespace Challenges.Implementations
                 arr[i] = int.Parse(Console.ReadLine() ?? "0");
             }
 
-            for (var i = arr.Length - 1; i <= 0; --i)
+            for (var i = arr.Length - 1; i >= 0; --i)
             {
                 Console.WriteLine("{0}", arr[i]);
             }

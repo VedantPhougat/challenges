@@ -1,6 +1,6 @@
 ﻿namespace Challenges.Implementations
 {
-    public class Algorithm
+    public static class Algorithm
     {
         
     }
