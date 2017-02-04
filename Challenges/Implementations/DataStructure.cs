@@ -3,7 +3,7 @@ using Challenges.Interfaces;
 
 namespace Challenges.Implementations
 {
-    public class DataStructure : IDataStructure
+    public static class DataStructure : IDataStructure
     {
         public void ArrayInReverse()
         {
