@@ -1,17 +1,23 @@
-﻿using Challenges.Implementations;
+﻿using static System.Console;
+using Challenges.DataStructures;
 
 namespace Coding
 {
     public class Program
     {
-        public static void Main(string[] args)
+        private static readonly DataStructure Structure;
+
+        static Program()
         {
-            DataStructure(new DataStructure());
+            Structure = new DataStructure();
         }
 
-        private static void DataStructure(DataStructure ds)
+        public static void Main(string[] args)
         {
-            ds.ArrayInReverse();
+            Structure.ArrayInReverse();
+
+            WriteLine("\nPress Enter key to exit...");
+            ReadKey();
         }
     }
 }
